@@ -37,39 +37,15 @@
       "id": "98443197"
     },
     {
-      "id": "592e",
-      "cityName": "Sentein",
-      "country": "France",
-      "emoji": "🇫🇷",
-      "date": "2025-06-06T15:45:03.897Z",
-      "notes": "TEST",
+      "id": "25c7",
+      "cityName": "Treffurt",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2025-06-07T04:18:25.081Z",
+      "notes": "",
       "position": {
-        "lat": "42.8115217450979",
-        "lng": "0.9008789062500001"
-      }
-    },
-    {
-      "id": "b0a7",
-      "cityName": "Mysuru",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2024-10-16T15:50:23.000Z",
-      "notes": "Ambari",
-      "position": {
-        "lat": "12.297068292853817",
-        "lng": "76.65435791015626"
-      }
-    },
-    {
-      "id": "77b7",
-      "cityName": "In Salah",
-      "country": "Algeria",
-      "emoji": "🇩🇿",
-      "date": "2025-06-06T15:56:01.087Z",
-      "notes": "testLoading",
-      "position": {
-        "lat": "28.1185024278052",
-        "lng": "2.513669729232788"
+        "lat": "51.1415266546749",
+        "lng": "10.283203125000002"
       }
     }
   ]
