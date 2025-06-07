@@ -1,6 +1,7 @@
 import { createContext, useContext, useEffect, useReducer } from "react";
 
-const BASE_URL = "http://localhost:9000";
+// const BASE_URL = "http://localhost:9000";
+const BASE_URL = "https://worldwise-api-qpfk.onrender.com";
 
 const CitiesContext = createContext();
 
@@ -100,7 +101,7 @@ function CitiesProvider({ children }) {
         method: "POST",
         body: JSON.stringify(newCity),
         headers: {
-          "Context-Type": "application/json",
+          "Content-Type": "application/json",
         },
       });
       const data = await res.json();

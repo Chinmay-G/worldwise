@@ -24,8 +24,8 @@ function User() {
 export default User;
 
 /*
-CHALLENGE
-
+Tasks:
+(Done, just keeping it to reference the act)
 1) Add `AuthProvider` to `App.jsx`
 2) In the `Login.jsx` page, call `login()` from context
 3) Inside an effect, check whether `isAuthenticated === true`. If so, programatically navigate to `/app`
