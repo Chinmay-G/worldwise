@@ -1,12 +1,46 @@
-# React + Vite
+# 🗺️ WorldWise
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A location-based travel tracker app that helps you **remember the places you've visited** and **plan where you want to go** — all visualized beautifully on a map!
 
-Currently, two official plugins are available:
+> 🧭 Live Demo: [worldwidetrack.netlify.app](https://worldwidetrack.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📚 About This Project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project was built as part of the [React Course by Jonas Schmedtmann](https://codingheroes.io/), aimed at mastering advanced concepts in modern React development, including component design, state management with Context API, routing, and third-party integrations like Leaflet.
+
+---
+
+## ✨ Features
+
+- 🌐 Interactive world map using Leaflet
+- 📍 Add cities by clicking on the map
+  - Auto-filled city and country (via reverse geocoding)
+  - Date of visit and notes field
+- 📂 Sidebar showing list of visited cities
+- 🗑️ Delete cities from your travel list
+- 💾 Data persistence via REST API
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**:
+
+  - React (Hooks, Context API)
+  - React Router
+  - React Leaflet (Map)
+  - CSS Modules
+
+- **Backend**:
+  - JSON Server (hosted on [Render](https://render.com))
+
+---
+
+## 🖼️ Screenshots
+
+![Home Page](image.png)
+![Initial App](image-1.png) ![Form](image-2.png)
+
+---
