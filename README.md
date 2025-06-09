@@ -2,7 +2,7 @@
 
 A location-based travel tracker app that helps you **remember the places you've visited** and **plan where you want to go** — all visualized beautifully on a map!
 
-> 🧭 Live Demo: [worldwidetrack.netlify.app](https://worldwidetrack.netlify.app/)
+> 🖥️ Live Demo: [worldwidetrack.netlify.app](https://worldwidetrack.netlify.app/)
 
 ---
 
@@ -40,7 +40,52 @@ This project was built as part of the [React Course by Jonas Schmedtmann](https:
 
 ## 🖼️ Screenshots
 
-![Home Page](image.png)
-![Initial App](image-1.png) ![Form](image-2.png)
+![Home Page](public/homePageSS.png)
+![Initial App](public/initialAppSS.png)
+![Form](public/formSS.png)
+![City List](public/cityListSS.png)
+![City Info](public/cityInfoSS.png)
 
 ---
+
+## 🔗 API
+
+**Base URL:**  
+`https://worldwise-api-qpfk.onrender.com`
+
+**Endpoints:**
+
+- `GET /cities` – Retrieve all cities
+- `POST /cities` – Add a new city
+- `DELETE /cities/:id` – Delete a city by ID
+
+---
+
+## 🗂️ Project Structure
+
+worldwise/
+├── public/
+├── src/
+│ ├── components/
+│ ├── contexts/
+│ ├── hooks/
+│ ├── pages/
+│ ├── styles/ # CSS Modules
+│ ├── App.jsx
+│ └── main.jsx
+├── index.html
+└── package.json
+
+## 📄 License
+
+This project is open source and available under the **MIT License**.
+
+---
+
+## 🙌 Acknowledgements
+
+- Project inspired by and built during [Jonas Schmedtmann's React Course](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
+- [React Leaflet](https://react-leaflet.js.org/)
+- [Nominatim API](https://nominatim.openstreetmap.org/) by OpenStreetMap
+- [Netlify](https://www.netlify.com/) for frontend deployment
+- [Render](https://render.com/) for backend hosting
