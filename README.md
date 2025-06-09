@@ -61,24 +61,9 @@ This project was built as part of the [React Course by Jonas Schmedtmann](https:
 
 ---
 
-## 🗂️ Project Structure
-
-worldwise/
-├── public/
-├── src/
-│ ├── components/
-│ ├── contexts/
-│ ├── hooks/
-│ ├── pages/
-│ ├── styles/ # CSS Modules
-│ ├── App.jsx
-│ └── main.jsx
-├── index.html
-└── package.json
-
 ## 📄 License
 
-This project is open source and available under the **MIT License**.
+This project is open source and available under the [MIT License](https://opensource.org/licenses/MIT).
 
 ---
 
